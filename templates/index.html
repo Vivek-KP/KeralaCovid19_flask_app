@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Covid19Kerala
+        </title>
+        <link rel="stylesheet" href="static/css/style.css">
+    </head>
+    <body>
+
+    <div class="topcontainer">
+        <h1>Kerala</h1>
+        <p class='time'>Last updated:{{cases.Time}}</p>
+    </div>
+
+
+    <div class="row">
+        <div class="column">
+        <div class="box">
+         <h2>Active</h2>
+         <p class="deto">+{{cases.Delta_a}}</p>
+         <h1 class="tot">{{cases.Total_a}}</h1>
+        </div>
+    </div>
+    
+    <div class="column">
+        <div class="box">
+         <h2>Recovered</h2>
+         <p class="deto">+{{cases.Delta_r}}</p>
+         <h1 class="tot">{{cases.Total_r}}</h1>
+        </div>
+    </div>
+    <div class="column">
+        <div class="box">
+         <h2>Deceased</h2>
+         <p class="deto">+{{cases.Delta_d}}</p>
+         <h1 class="tot">{{cases.Total_d}}</h1>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="row1">
+    <div class="column1">
+        <div class="card">
+        <h3>ALAPPUZHA</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[2]}}</p>
+        <h2 class="h22">{{cases.Al_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[0]}}</p>
+        <h1 class="h2222">{{cases.Al_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[1]}}</p>
+        <h2 class="h222222">{{cases.Al_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>ERNAKULAM</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[5]}}</p>
+        <h2 class="h22">{{cases.Er_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[3]}}</p>
+        <h1 class="h2222">{{cases.Er_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[4]}}</p>
+        <h2 class="h222222">{{cases.Er_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>IDUKKI</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[8]}}</p>
+        <h2 class="h22">{{cases.Id_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[6]}}</p>
+        <h1 class="h2222">{{cases.Id_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[7]}}</p>
+        <h2 class="h222222">{{cases.Id_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>KANNUR</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[11]}}</p>
+        <h2 class="h22">{{cases.Ka_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[9]}}</p>
+        <h1 class="h2222">{{cases.Ka_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[10]}}</p>
+        <h2 class="h222222">{{cases.Ka_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>KASARAGOD</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[14]}}</p>
+        <h2 class="h22">{{cases.Kas_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[12]}}</p>
+        <h1 class="h2222">{{cases.Kas_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[13]}}</p>
+        <h2 class="h222222">{{cases.Kas_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>KOLLAM</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[17]}}</p>
+        <h2 class="h22">{{cases.Ko_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[15]}}</p>
+        <h1 class="h2222">{{cases.Ko_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[16]}}</p>
+        <h2 class="h222222">{{cases.Ko_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>KOTTAYAM</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[20]}}</p>
+        <h2 class="h22">{{cases.Kot_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[18]}}</p>
+        <h1 class="h2222">{{cases.Kot_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[19]}}</p>
+        <h2 class="h222222">{{cases.Kot_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>KOZHIKODE</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[23]}}</p>
+        <h2 class="h22">{{cases.Al_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[21]}}</p>
+        <h1 class="h2222">{{cases.Koz_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[22]}}</p>
+        <h2 class="h222222">{{cases.Koz_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>MALAPPURAM</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[26]}}</p>
+        <h2 class="h22">{{cases.Ma_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[24]}}</p>
+        <h1 class="h2222">{{cases.Ma_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[25]}}</p>
+        <h2 class="h222222">{{cases.Ma_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>PALAKKAD</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[29]}}</p>
+        <h2 class="h22">{{cases.Pa_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[27]}}</p>
+        <h1 class="h2222">{{cases.Pa_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[28]}}</p>
+        <h2 class="h222222">{{cases.Pa_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>PATHANAMTHITTA</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[32]}}</p>
+        <h2 class="h22">{{cases.Pat_active}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[30]}}</p>
+        <h1 class="h2222">{{cases.Pat_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[31]}}</p>
+        <h2 class="h222222">{{cases.Pat_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>TRIVANDRUM</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[35]}}</p>
+        <h2 class="h22">{{cases.Th_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[33]}}</p>
+        <h1 class="h2222">{{cases.Th_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[34]}}</p>
+        <h2 class="h222222">{{cases.Th_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>THRISSUR</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[38]}}</p>
+        <h2 class="h22">{{cases.Thr_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[36]}}</p>
+        <h1 class="h2222">{{cases.Thr_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[37]}}</p>
+        <h2 class="h222222">{{cases.Thr_death}}</h2>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="card">
+        <h3>WAYANAD</h3>
+        <hr>
+        <h2 class="h2">Recovered</h2>
+        <p class="dere">+{{cases.delt[41]}}</p>
+        <h2 class="h22">{{cases.Wa_recover}}</h2>
+        <h1 class="h222">Active</h1>
+        <p class="deact">+{{cases.delt[39]}}</p>
+        <h1 class="h2222">{{cases.Wa_active}}</h1>
+        <h2 class="h22222">Deceased</h2>
+        <p class="dede">+{{cases.delt[40]}}</p>
+        <h2 class="h222222">{{cases.Wa_death}}</h2>
+        </div>
+    </div>
+    </div>
+    </body>
+</html>

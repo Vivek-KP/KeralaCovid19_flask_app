@@ -1,0 +1,183 @@
+body{
+background-color: white;
+margin: 0%;
+}
+
+.topcontainer{
+    border: 2px ;
+    column-width: 100%;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(42, 6, 248);;
+}
+
+.row {margin: 0 29%;}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+  justify-content: center;
+}
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 9px 40px;
+  }
+
+  .row1 {margin: 0 10%;}
+
+.row1::after{
+    content: "";
+  display: table;
+  clear: both;
+  justify-content: center;
+}
+
+.column1 {
+    float: left;
+    width: 13%;
+    padding: 9px 40px;
+  }
+
+.box{
+    border: 2px ;
+    border-radius: 10px;
+    background-color: rgb(40, 18, 168);
+    color: ghostwhite;
+    padding: 8px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 6px 5px 5px rgb(122, 122, 122);
+}
+
+.card{
+border: 3px;
+border-radius: 15px;
+background-color: ghostwhite;
+width: 200px;
+padding: 8px;
+height: 425px;
+text-align: center;
+box-shadow: 6px 5px 5px rgb(75, 74, 74);
+margin: 15px;
+}
+
+.card:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.box:hover{
+  background-color: rgb(65, 65, 250);
+}
+
+h3{
+padding: 12px 0px 0px 4px;
+color: rgb(40, 18, 168);;
+}
+
+p{
+font-size: larger;
+font-weight: bold;
+position: relative;
+top: 10px;
+}
+
+h4{
+font-size: 20px;
+position: relative;
+bottom: 7px;
+}
+
+.h2{
+  color: rgb(26, 250, 6); ;
+}
+
+
+.h22{
+  position: relative;
+bottom: 35px;
+color: rgb(26, 250, 6);
+}
+
+
+.h222{
+  position: relative;
+bottom: 37px;
+color: red;
+}
+
+
+.h2222{
+  position: relative;
+bottom: 78px;
+color: red;
+}
+
+
+.h22222{
+  position: relative;
+bottom: 75px;
+color: rgb(88, 88, 88);
+}
+
+
+.h222222{
+  position: relative;
+bottom: 110px;
+color: rgb(88, 88, 88);
+}
+
+.dere{
+  position: relative;
+  color: rgb(26, 250, 6);
+  top: -13px;
+}
+
+.deact{
+  position: relative;
+  color: red;
+  top: -52px;
+}
+
+.dede{
+  position: relative;
+  color: rgb(88, 88, 88);
+  top: -88px;
+}
+
+.time{
+position: relative;
+top: -20px;
+}
+
+.deto{
+  position: relative;
+  top: 2px;
+}
+
+.tot{
+  position: relative;
+  top: -15px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
